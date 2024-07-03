@@ -6,7 +6,7 @@
         <title>Debounce and Throttle</title>
     </head>
     <body>
-        <a href="index.html">Usage of (vanilla JS) debounce and throttle</a>
+        <a href="index-lodash.html">Lodash usage of debounce and throttle</a>
         <hr />
 
         <div>
@@ -24,10 +24,8 @@
             <span id="score"></span>
         </div>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
-
-        <script>
-            const { debounce, throttle } = _;
+        <script type="module">
+            import { debounce, throttle } from "./fn-helpers.js";
 
             const searchInput = document.getElementById("search");
             const searchingForEl = document.getElementById("searching-for");
@@ -50,7 +48,7 @@
             updateScore();
             updateScoreBtn.addEventListener(
                 "click",
-                throttle(updateScore, 5000)
+                throttle(updateScore, 2000)
             );
         </script>
     </body>

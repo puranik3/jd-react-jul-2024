@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Web workers</title>
+    </head>
+    <body>
+        <!--
+            Integrating with React: https://www.dhiwise.com/post/power-of-web-workers-in-react-for-improved-user-experience
+        -->
+        <button onclick="doSomethingBig();" id="start-big-task">
+            Start big task
+        </button>
+        <button onclick="alert('I am still interactive')">
+            Click me when the task is in progress
+        </button>
+        <script>
+            // function doSomethingBig() {
+            //     var worker = new Worker("03-worker.js");
+
+            //     worker.postMessage({
+            //         a: 1,
+            //         b: 1000_000_000_0,
+            //     });
+
+            //     worker.onmessage = function (event) {
+            //         console.log(
+            //             "final result of the big task = ",
+            //             event.data.result
+            //         );
+            //     };
+            // }
+
+            function doSomethingBig() {
+                const result = sum(1, 11000_000_000_0);
+                console.log(result);
+            }
+
+            function sum(a, b) {
+                let result = 0;
+
+                for (let i = a; i <= b; ++i) {
+                    result += i;
+                }
+
+                return result;
+            }
+        </script>
+    </body>
+</html>

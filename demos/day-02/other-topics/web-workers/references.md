@@ -1,0 +1,3 @@
+- Web worker in React: https://dev.to/sumankalia/web-workers-in-reactjs-4bc7
+- Working example with React: https://6505555525bea36e699fd62c--monumental-cuchufli-bc3416.netlify.app/
+- https://www.dhiwise.com/post/power-of-web-workers-in-react-for-improved-user-experience
