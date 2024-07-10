@@ -6,6 +6,10 @@
 
 -   Workshops server can be found here - https://workshops-server.onrender.com/
 
+## Videos on remaining topics
+
+-   Sorry, I need more time to record the videos on the remaining topics (React router v6 covered in class but will be explained further, OIDC (example added under `demos/day-03/react-auth0-oidc`), Using Secrets manager). Please check back this page on July 22. It should be uploaded.
+
 ## Video references
 
 -   [OAuth 2.0 Flow Overview - ByteByteGo](https://youtu.be/ZV5yTm4pT8g?si=RC9o1lue_9WRPJWK)
@@ -13,7 +17,6 @@
 -   [Building a Docker image of a React app - RoadsideCoder](https://www.youtube.com/watch?v=dfTco9hmXEM&t=23s)
 -   [Running an app using ECR and ECS - AWS cloud demos](https://www.youtube.com/watch?v=PgyFrkJaNys)
 -   [Debouncing and Throttling Explained Through Examples - CSS Tricks](https://css-tricks.com/debouncing-throttling-explained-examples/)
-
 
 ## Bonus topics
 
