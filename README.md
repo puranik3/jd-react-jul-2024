@@ -10,6 +10,10 @@
 
 -   Sorry, I need more time to record the videos on the remaining topics (React router v6 covered in class but will be explained further, OIDC (example added under `demos/day-03/react-auth0-oidc`), Using Secrets manager). Please check back this page on July 22. It should be uploaded.
 
+## Full-fledged Next JS Pages router app demo
+
+I have added a full-fledged Next JS app with a detailed README of how to recreate it. FOllow it step-by-step and you should be able to create the app from scratch. It uses pages router (since last year a different router called app router released in Next JS v14 is being recommended though). You can find it in the `day-03/full-fledged-next-js-pages-router-demo` folder. Follow the README to recreate the app. You will need a local MongoDB installation to run / recreate the app. You can install it from [here](https://www.mongodb.com/try/download/community).
+
 ## Video references
 
 -   [OAuth 2.0 Flow Overview - ByteByteGo](https://youtu.be/ZV5yTm4pT8g?si=RC9o1lue_9WRPJWK)

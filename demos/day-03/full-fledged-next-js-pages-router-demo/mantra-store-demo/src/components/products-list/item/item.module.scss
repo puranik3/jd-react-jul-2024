@@ -1,0 +1,20 @@
+.category__container {
+    position: relative;
+
+    .category {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 144px;
+        width: 144px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        opacity: 0.75;
+        border-radius: 0;
+        font-size: 1em;
+        transform: rotate(-45deg) translateY(-100px);
+        background-color: crimson;
+        color: white;
+    }
+}
