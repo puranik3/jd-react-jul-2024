@@ -1,0 +1,152 @@
+[{
+  "_id": {
+    "$oid": "660004d265e57c6b81d762d7"
+  },
+  "email": "john@gmail.com",
+  "username": "johnd",
+  "password": "password",
+  "role": "admin",
+  "cart": [
+    {
+      "productId": "65fe6a5a65e57c6b81d762b6",
+      "quantity": 3,
+      "_id": {
+        "$oid": "6602c65be163032e2bd568e3"
+      }
+    },
+    {
+      "productId": "65fe6a5a65e57c6b81d762b8",
+      "quantity": 1,
+      "_id": {
+        "$oid": "6602c65be163032e2bd568e4"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "660004d265e57c6b81d762d8"
+  },
+  "email": "morrison@gmail.com",
+  "username": "mor_2314",
+  "password": "password",
+  "role": "customer",
+  "cart": [
+    {
+      "productId": "65fe6a5a65e57c6b81d762b6",
+      "quantity": 3,
+      "_id": {
+        "$oid": "66033bde4bd6bfae163fe43a"
+      }
+    },
+    {
+      "productId": "65fe6a5a65e57c6b81d762b8",
+      "quantity": 1,
+      "_id": {
+        "$oid": "66033bde4bd6bfae163fe43b"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "660004d265e57c6b81d762d9"
+  },
+  "email": "kevin@gmail.com",
+  "username": "kevinryan",
+  "password": "password",
+  "role": "customer",
+  "cart": []
+},
+{
+  "_id": {
+    "$oid": "660004d265e57c6b81d762da"
+  },
+  "email": "don@gmail.com",
+  "username": "donero",
+  "password": "password",
+  "role": "customer",
+  "cart": []
+},
+{
+  "_id": {
+    "$oid": "660004d265e57c6b81d762db"
+  },
+  "email": "derek@gmail.com",
+  "username": "derek",
+  "password": "password",
+  "role": "customer",
+  "cart": []
+},
+{
+  "_id": {
+    "$oid": "660004d265e57c6b81d762dc"
+  },
+  "email": "david_r@gmail.com",
+  "username": "david_r",
+  "password": "password",
+  "role": "customer",
+  "cart": []
+},
+{
+  "_id": {
+    "$oid": "660004d265e57c6b81d762dd"
+  },
+  "email": "miriam@gmail.com",
+  "username": "snyder",
+  "password": "password",
+  "role": "customer",
+  "cart": []
+},
+{
+  "_id": {
+    "$oid": "660004d265e57c6b81d762de"
+  },
+  "email": "william@gmail.com",
+  "username": "hopkins",
+  "password": "password",
+  "role": "customer",
+  "cart": []
+},
+{
+  "_id": {
+    "$oid": "660004d265e57c6b81d762df"
+  },
+  "email": "kate@gmail.com",
+  "username": "kate_h",
+  "password": "password",
+  "role": "customer",
+  "cart": []
+},
+{
+  "_id": {
+    "$oid": "660004d265e57c6b81d762e0"
+  },
+  "email": "jimmie@gmail.com",
+  "username": "jimmie_k",
+  "password": "password",
+  "role": "customer",
+  "cart": []
+},
+{
+  "_id": {
+    "$oid": "6600153783b8e87e65ed089e"
+  },
+  "email": "puranik@gmail.com",
+  "username": "puranik",
+  "password": "password",
+  "role": "customer",
+  "__v": 0,
+  "cart": []
+},
+{
+  "_id": {
+    "$oid": "66001672825d9df473c1730f"
+  },
+  "email": "jane@gmail.com",
+  "username": "jane",
+  "password": "password",
+  "role": "customer",
+  "__v": 0,
+  "cart": []
+}]
